@@ -1,12 +1,18 @@
 {
-  "keyboard_name": "destra",
-  "manufacturer": "osamuaoki",
-  "maintainer": "custom",
-  "url": "https://custom.com",
-  "vendor_id": "0xFEED",
-  "product_id": "0x0000",
+    "manufacturer": "vittorio",
+    "keyboard_name": "sinistra",
+    "maintainer": "philter1980",
+    "development_board": "promicro",
 
-   "usb": {
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+
+  "url" : "https://custom.com",
+  "usb": {
         "vid": "0xFEED",
         "pid": "0x0000",
         "device_version": "1.0.0"
